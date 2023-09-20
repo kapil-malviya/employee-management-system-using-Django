@@ -51,22 +51,15 @@ Send a POST request to this URL with the employee data in the request body to cr
 #### 3. Delete an existing employee
 
 - Endpoint : `http://localhost:8000/remove_emp/`
-- Endpoint : `http://localhost:8000/remove_emp/108`
+- Endpoint : `http://localhost:8000/remove_emp/<employee_id>`
 
-Send a request to this URL with the employee id in the request body to remove an existing employee.
+Replace `<employee_id>` with the actual ID of the employee you want to delete and Send a request to this URL with the employee id in the request body to remove an existing employee.
 
-#### 3. Filter employee Details
+#### 4. Filter employee Details
 
 - Endpoint : `http://localhost:8000/filter_emp/`
 
 Send a request to this URL to filter details of an existing employee.
-
-
-#### 4. Update an existing employee (PUT)
-
-- Endpoint: `http://localhost:8000/api/employees/<employee_id>/`
-
-Replace `<employee_id>` with the actual ID of the employee you want to update. Send a PUT request to this URL with the updated employee data in the request body (in JSON format) to edit the information of an existing employee.
 
 
 ## Technologies Used
