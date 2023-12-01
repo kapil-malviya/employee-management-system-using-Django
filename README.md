@@ -11,13 +11,23 @@ views. This project allows you to perform CRUD operations in Enmployee Managemen
    git clone https://github.com/kapil-malviya/employee-management-system-using-Django
    ```
 
-2. Navigate to the project directory:
+2. Navigate to the directory:
 
    ```
    cd employee-management-system-using-Django
    ```
 
-3. Start the development server:
+3.  Install required Python modules for this specific project:
+   ```
+   pip install -r requirements.txt
+   ```
+
+4. Navigate to the project level directory:
+   ```
+   cd ems_project
+   ```
+
+5. Start the development server:
 
    ```
    python3 manage.py runserver
