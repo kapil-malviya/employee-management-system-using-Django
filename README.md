@@ -20,7 +20,7 @@ views. This project allows you to perform CRUD operations in Enmployee Managemen
 3.  Install required Python modules for this specific project:
    
    ```
-   pip install -r requirements.txt
+    pip install -r requirements.txt
    ```
 
 4. Navigate to the project level directory:
